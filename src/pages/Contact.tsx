@@ -194,14 +194,15 @@ const Contact = () => {
                   <h3 className="text-xl font-display font-semibold">Enquiry Form</h3>
                 </div>
 
-                <form
+<form
   name="contact"
   method="POST"
   data-netlify="true"
-  onSubmit={handleSubmit}
+  action="/success"
   className="space-y-6"
 >
   <input type="hidden" name="form-name" value="contact" />
+
 
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
