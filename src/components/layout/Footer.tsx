@@ -7,8 +7,8 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="mb-6">
-              <h3 className="font-display text-2xl font-bold mb-1">IMPAVID</h3>
-              <p className="text-sm text-white/60 tracking-wider uppercase">Venture Pvt. Ltd.</p>
+              <h3 className="font-display text-2xl font-bold mb-1">IMPAVID VENTURE</h3>
+              <p className="text-sm text-white/60 tracking-wider uppercase">PRIVATE LIMITED</p>
             </div>
             <p className="text-white/70 text-sm leading-relaxed mb-6">
               Crafting the impossible into unforgettable reality. India's premier event management company delivering excellence across corporate, government, and private events.
