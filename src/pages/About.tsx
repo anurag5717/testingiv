@@ -3,21 +3,17 @@ import { useRef } from "react";
 import Layout from "@/components/layout/Layout";
 import { Target, Eye, MapPin, Award, Users, Building } from "lucide-react";
 const team = [{
-  name: "Amit Panda",
-  position: "Founder & CEO",
+  name: "Pranati Das",
+  position: "Director",
   image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
 }, {
-  name: "Priya Sharma",
-  position: "Director of Operations",
+  name: "Bidyaraj Jena",
+  position: "Director",
   image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop"
 }, {
-  name: "Rajesh Kumar",
-  position: "Head of Production",
+  name: "Ranjit Kumar Das",
+  position: "Managing Director",
   image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop"
-}, {
-  name: "Sneha Mohanty",
-  position: "Creative Director",
-  image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop"
 }];
 const About = () => {
   const heroRef = useRef(null);
