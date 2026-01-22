@@ -84,7 +84,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-white/50 text-sm text-center md:text-left">
               <p>© 2024 Impavid Venture Private Limited. All rights reserved.</p>
-              <p className="mt-1">GST: 21XXXXX1234X1Z5 | CIN: U74999OR2020PTC012345</p>
+              <p className="mt-1">GST: 21AAECI6295G1ZL | CIN: U74999OR2017PTC027665</p>
             </div>
             <div className="flex gap-6 text-sm text-white/50">
               <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
