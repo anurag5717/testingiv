@@ -25,7 +25,7 @@ const reasons = [
   },
   {
     icon: Award,
-    title: "15+ Years Experience",
+    title: "9+ Years Experience",
     description: "Proven track record with 500+ successful events and 100+ corporate clients.",
   },
   {
