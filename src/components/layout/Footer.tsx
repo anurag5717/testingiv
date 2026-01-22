@@ -62,7 +62,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex gap-3">
                 <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span className="text-white/70 text-sm">A31 BJB Nagar, Bhubaneswar<br />
+                <span className="text-white/70 text-sm">A31 BJB Nagar<br />
                   Bhubaneswar, Odisha 751014
                 </span>
               </li>
