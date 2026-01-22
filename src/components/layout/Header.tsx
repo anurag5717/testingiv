@@ -83,7 +83,7 @@ const Header = () => {
               <div className="pt-4 border-t border-border flex flex-col gap-3">
                 <a href="tel:+918249756770" className="flex items-center gap-2 text-muted-foreground">
                   <Phone className="w-4 h-4" />
-                  <span>+91 98765 43210</span>
+                  <span>+91 82497 56770</span>
                 </a>
                 <Button asChild className="bg-gradient-brand w-full">
                   <Link to="/contact" onClick={() => setIsOpen(false)}>Get a Quote</Link>
