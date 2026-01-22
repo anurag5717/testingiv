@@ -101,7 +101,7 @@ const Hero = () => {
             number: "100+",
             label: "Corporate Clients"
           }, {
-            number: "15+",
+            number: "9+",
             label: "Years Experience"
           }].map(stat => <div key={stat.label}>
                 <div className="text-3xl md:text-4xl font-display font-bold text-white mb-1">
