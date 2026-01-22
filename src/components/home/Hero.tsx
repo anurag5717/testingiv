@@ -74,7 +74,7 @@ const Hero = () => {
               </Link>
             </Button>
             <Button asChild variant="heroOutline" size="xl">
-              <a href="https://wa.me/919876543210?text=Hello! I'm interested in your event management services." target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/918249756770?text=Hello! I'm interested in your event management services." target="_blank" rel="noopener noreferrer">
                 WhatsApp Us
               </a>
             </Button>
