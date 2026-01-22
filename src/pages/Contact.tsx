@@ -203,7 +203,7 @@ const Contact = () => {
                       <label htmlFor="phone" className="block text-sm font-medium mb-2">
                         Phone Number *
                       </label>
-                      <Input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleChange} placeholder="+91 9XXX XXXXX" required className="h-12" />
+                      <Input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleChange} placeholder="+91 XXXX XXXXX" required className="h-12" />
                     </div>
                   </div>
 
