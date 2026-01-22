@@ -263,9 +263,8 @@ const Contact = () => {
       }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Impavid Venture Office Location" />
         <div className="absolute top-6 left-6 bg-background rounded-xl p-6 shadow-lg max-w-xs">
           <h4 className="font-display font-semibold mb-2">Visit Our Office</h4>
-          <p className="text-sm text-muted-foreground">
-            123 Business Park, Saheed Nagar<br />
-            Bhubaneswar, Odisha 751007
+          <p className="text-sm text-muted-foreground">A31 BJB Nagar   <br />
+            Bhubaneswar, Odisha 751014
           </p>
         </div>
       </section>
