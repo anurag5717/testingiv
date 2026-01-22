@@ -2,19 +2,24 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import Layout from "@/components/layout/Layout";
 import { Target, Eye, MapPin, Award, Users, Building } from "lucide-react";
-const team = [{
-  name: "Pranati Das",
-  position: "Director",
-  image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
-}, {
-  name: "Bidyaraj Jena",
-  position: "Director",
-  image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop"
-}, {
-  name: "Ranjit Kumar Das",
-  position: "Managing Director",
-  image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop"
-}];
+const team = [
+  {
+    name: "Pranati Das",
+    position: "Director",
+    image: "/team/pranati.png",
+  },
+  {
+    name: "Bidyaraj Jena",
+    position: "Director",
+    image: "/team/bidyaraj.png",
+  },
+  {
+    name: "Ranjit Kumar Das",
+    position: "Managing Director",
+    image: "/team/ranjit.png",
+  },
+];
+
 const About = () => {
   const heroRef = useRef(null);
   const visionRef = useRef(null);
@@ -167,7 +172,7 @@ const About = () => {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
             {team.map((member, index) => <motion.div key={member.name} initial={{
             opacity: 0,
             y: 30
@@ -178,7 +183,7 @@ const About = () => {
             duration: 0.5,
             delay: index * 0.1
           }} className="group text-center">
-                <div className="relative mb-4 overflow-hidden rounded-2xl">
+                <div className="relative mb-4 overflow-hidden rounded-2xl mx-auto w-full max-w-[280px]">
                   <img src={member.image} alt={member.name} className="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-110" />
                   
                 </div>
