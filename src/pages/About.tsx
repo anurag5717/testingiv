@@ -109,7 +109,7 @@ const About = () => {
               { icon: Award, value: "500+", label: "Successful Events" },
               { icon: Users, value: "100+", label: "Corporate Clients" },
               { icon: MapPin, value: "50+", label: "Cities Covered" },
-              { icon: Building, value: "15+", label: "Years Experience" },
+              { icon: Building, value: "9+", label: "Years Experience" },
             ].map((stat, index) => (
               <motion.div
                 key={stat.label}
