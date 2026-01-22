@@ -68,7 +68,7 @@ const WhyChooseUs = () => {
               {[
                 { value: "99%", label: "Client Satisfaction" },
                 { value: "500+", label: "Events Completed" },
-                { value: "₹100Cr+", label: "Events Managed" },
+                { value: "₹10Cr+", label: "Events Managed" },
               ].map((stat) => (
                 <div key={stat.label} className="text-center">
                   <div className="text-2xl md:text-3xl font-display font-bold text-gradient">
