@@ -29,7 +29,7 @@ const Header = () => {
   return <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
       <div className="container-wide mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between h-20">
-{/* Logo */}
+        {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
             <img src={logo} alt="Impavid Venture Logo" className="h-12 w-auto" />
             <div className="flex flex-col">
@@ -50,7 +50,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center gap-4">
             <a href="tel:+919876543210" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
               <Phone className="w-4 h-4" />
-              <span>+91 98765 43210</span>
+              <span>+91 8249756770</span>
             </a>
             <Button asChild className="bg-gradient-brand hover:opacity-90 transition-opacity">
               <Link to="/contact">Get a Quote</Link>
