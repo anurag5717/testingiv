@@ -184,7 +184,7 @@ const About = () => {
           }} className="group text-center">
                 <div className="relative mb-4 overflow-hidden rounded-2xl">
                   <img src={member.image} alt={member.name} className="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-110" />
-                  <div className="absolute inset-0 bg-gradient-brand opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
+                  
                 </div>
                 <h3 className="font-display text-lg font-semibold">{member.name}</h3>
                 <p className="text-muted-foreground text-sm">{member.position}</p>
