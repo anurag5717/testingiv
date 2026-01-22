@@ -135,8 +135,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold">Office</h4>
-                    <p className="text-muted-foreground">A31 BJB Nagar, Bhbubaneswar-14<br />
-                      Bhubaneswar, Odisha 751007
+                    <p className="text-muted-foreground">A31 BJB Nagar, Bhbubaneswar<br />
+                      Bhubaneswar, Odisha 751014
                     </p>
                   </div>
                 </div>
