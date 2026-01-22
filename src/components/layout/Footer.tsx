@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-charcoal text-white">
+  return <footer className="bg-charcoal text-white">
       <div className="container-wide mx-auto px-4 md:px-8 py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
           {/* Company Info */}
@@ -35,16 +33,11 @@ const Footer = () => {
           <div>
             <h4 className="font-display text-lg font-semibold mb-6">Quick Links</h4>
             <ul className="space-y-3">
-              {["About Us", "Services", "Portfolio", "Testimonials", "Contact"].map((item) => (
-                <li key={item}>
-                  <Link 
-                    to={`/${item.toLowerCase().replace(" ", "-").replace("about-us", "about")}`}
-                    className="text-white/70 hover:text-white transition-colors text-sm"
-                  >
+              {["About Us", "Services", "Portfolio", "Testimonials", "Contact"].map(item => <li key={item}>
+                  <Link to={`/${item.toLowerCase().replace(" ", "-").replace("about-us", "about")}`} className="text-white/70 hover:text-white transition-colors text-sm">
                     {item}
                   </Link>
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
 
@@ -52,13 +45,11 @@ const Footer = () => {
           <div>
             <h4 className="font-display text-lg font-semibold mb-6">Our Services</h4>
             <ul className="space-y-3">
-              {["Corporate Events", "Government Events", "Live Concerts", "Trade Fairs & Expos", "Weddings", "Digital Marketing"].map((item) => (
-                <li key={item}>
+              {["Corporate Events", "Government Events", "Live Concerts", "Trade Fairs & Expos", "Weddings", "Digital Marketing"].map(item => <li key={item}>
                   <Link to="/services" className="text-white/70 hover:text-white transition-colors text-sm">
                     {item}
                   </Link>
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
 
@@ -68,15 +59,14 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex gap-3">
                 <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span className="text-white/70 text-sm">
-                  123 Business Park, Saheed Nagar<br />
+                <span className="text-white/70 text-sm">A31 BJB Nagar, Bhubaneswar-14<br />
                   Bhubaneswar, Odisha 751007
                 </span>
               </li>
               <li>
                 <a href="tel:+919876543210" className="flex gap-3 text-white/70 hover:text-white transition-colors">
                   <Phone className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="text-sm">+91 98765 43210</span>
+                  <span className="text-sm">+91 8249756770</span>
                 </a>
               </li>
               <li>
@@ -103,8 +93,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
