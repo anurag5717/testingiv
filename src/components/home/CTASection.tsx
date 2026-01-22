@@ -39,7 +39,7 @@ const CTASection = () => {
               </Link>
             </Button>
             <Button asChild variant="heroOutline" size="xl">
-              <a href="tel:+919876543210">
+              <a href="tel:+918249756770">
                 <Phone className="w-5 h-5 mr-2" />
                 Call Us Now
               </a>

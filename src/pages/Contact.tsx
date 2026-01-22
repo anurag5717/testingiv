@@ -162,9 +162,9 @@ const Contact = () => {
                   <h4 className="font-semibold">Company Details</h4>
                 </div>
                 <div className="space-y-2 text-sm text-muted-foreground">
-                  <p><span className="font-medium text-foreground">GST:</span> 21XXXXX1234X1Z5</p>
-                  <p><span className="font-medium text-foreground">CIN:</span> U74999OR2020PTC012345</p>
-                  <p><span className="font-medium text-foreground">PAN:</span> AAACI1234X</p>
+                  <p><span className="font-medium text-foreground">GST:</span> 21AAECI6295G1ZL</p>
+                  <p><span className="font-medium text-foreground">CIN:</span> U74999OR2017PTC027665</p>
+                  <p><span className="font-medium text-foreground">PAN:</span> AAECI6295G</p>
                 </div>
               </div>
             </motion.div>
