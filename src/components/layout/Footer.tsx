@@ -83,7 +83,7 @@ const Footer = () => {
         <div className="mt-16 pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-white/50 text-sm text-center md:text-left">
-              <p>© 2024 Impavid Venture Private Limited. All rights reserved.</p>
+              <p>© 2025 Impavid Venture Private Limited. All rights reserved.</p>
               <p className="mt-1">GST: 21AAECI6295G1ZL | CIN: U74999OR2017PTC027665</p>
             </div>
             <div className="flex gap-6 text-sm text-white/50">
