@@ -13,20 +13,23 @@ const Footer = () => {
             <p className="text-white/70 text-sm leading-relaxed mb-6">
               Crafting the impossible into unforgettable reality. India's premier event management company delivering excellence across corporate, government, and private events.
             </p>
-            <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
-                <Facebook className="w-4 h-4" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
-                <Instagram className="w-4 h-4" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
-                <Linkedin className="w-4 h-4" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
-                <Twitter className="w-4 h-4" />
-              </a>
-            </div>
+            {/*
+                <div className="flex gap-4">
+                <a href="#">
+                  <Facebook className="w-4 h-4" />
+                </a>
+                <a href="#">
+                  <Instagram className="w-4 h-4" />
+                </a>
+                <a href="#">
+                  <Linkedin className="w-4 h-4" />
+                </a>
+                <a href="#">
+                  <Twitter className="w-4 h-4" />
+                </a>
+              </div>
+              */}
+
           </div>
 
           {/* Quick Links */}
